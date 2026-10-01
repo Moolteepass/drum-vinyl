@@ -1,0 +1,724 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 16046,
+      "max": [
+        919.0306396484375,
+        1117.9241943359375,
+        1039.8836669921875
+      ],
+      "min": [
+        -1205.6414794921875,
+        -471.23773193359375,
+        -344.8765869140625
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 192552,
+      "componentType": 5126,
+      "count": 16046,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 16046,
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 16046,
+      "max": [
+        0.9976181983947754,
+        0.996660590171814
+      ],
+      "min": [
+        0.0028754472732543945,
+        0.002727733924984932
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 50322,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 385104,
+      "componentType": 5126,
+      "count": 4,
+      "max": [
+        500.0,
+        500.0,
+        0.0
+      ],
+      "min": [
+        -500.0,
+        -500.0,
+        0.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 385152,
+      "componentType": 5126,
+      "count": 4,
+      "max": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 128368,
+      "componentType": 5126,
+      "count": 4,
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 201288,
+      "componentType": 5125,
+      "count": 6,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 385200,
+      "componentType": 5126,
+      "count": 158,
+      "max": [
+        -1136.513671875,
+        -61.055686950683594,
+        398.8778991699219
+      ],
+      "min": [
+        -1149.640625,
+        -461.5471496582031,
+        385.75091552734375
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 387096,
+      "componentType": 5126,
+      "count": 158,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 256736,
+      "componentType": 5126,
+      "count": 158,
+      "max": [
+        0.674765944480896,
+        0.00017538889369461685,
+        0.9999486804008484,
+        1.0
+      ],
+      "min": [
+        -0.6749864816665649,
+        -0.9999999403953552,
+        -0.9999484419822693,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 128400,
+      "componentType": 5126,
+      "count": 158,
+      "max": [
+        0.6178023219108582,
+        0.70006263256073
+      ],
+      "min": [
+        0.3025718629360199,
+        0.6500478386878967
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 201312,
+      "componentType": 5125,
+      "count": 648,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 388992,
+      "componentType": 5126,
+      "count": 158,
+      "max": [
+        -1136.513671875,
+        -61.055686950683594,
+        398.8778991699219
+      ],
+      "min": [
+        -1149.640625,
+        -461.5471496582031,
+        385.75091552734375
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 390888,
+      "componentType": 5126,
+      "count": 158,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 259264,
+      "componentType": 5126,
+      "count": 158,
+      "max": [
+        0.674765944480896,
+        0.00017538889369461685,
+        0.9999486804008484,
+        1.0
+      ],
+      "min": [
+        -0.6749864816665649,
+        -0.9999999403953552,
+        -0.9999484419822693,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 129664,
+      "componentType": 5126,
+      "count": 158,
+      "max": [
+        0.6178023219108582,
+        0.70006263256073
+      ],
+      "min": [
+        0.3025718629360199,
+        0.6500478386878967
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 203904,
+      "componentType": 5125,
+      "count": 648,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Andrei V (https://sketchfab.com/vav206)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/drum-3bdb9a685e834932a7f3ce226d7bd247",
+      "title": "Drum"
+    },
+    "generator": "Sketchfab-16.31.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 206496,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 130928,
+      "byteOffset": 206496,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 392784,
+      "byteOffset": 337424,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 261792,
+      "byteOffset": 730208,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 992000,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/drum_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/drum_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/drum_normal.png"
+    },
+    {
+      "uri": "textures/logo_baseColor.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "drum",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    },
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "name": "logo",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.10176814581952826,
+          0.10176814581952826,
+          0.10176814581952826,
+          1.0
+        ],
+        "baseColorTexture": {
+          "index": 3
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.6218264783488318
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "drum_drum_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Plane001_logo_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TEXCOORD_0": 7
+          },
+          "indices": 8,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "stick1_drum_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 10,
+            "POSITION": 9,
+            "TANGENT": 11,
+            "TEXCOORD_0": 12
+          },
+          "indices": 13,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "stick002_drum_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 15,
+            "POSITION": 14,
+            "TANGENT": 16,
+            "TEXCOORD_0": 17
+          },
+          "indices": 18,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.0010000000474974513,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0010000000474974513,
+        0.0,
+        0.0,
+        -0.0010000000474974513,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "54d54c8433e24c239b7102d3b068c11a.fbx"
+    },
+    {
+      "children": [
+        3,
+        6,
+        8,
+        11
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        6.103515625e-05,
+        0.0,
+        6.103515625e-05,
+        1.0
+      ],
+      "name": "drum"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        -0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        22.964279174804688,
+        344.03179931640625,
+        1.0
+      ],
+      "name": "Object_4"
+    },
+    {
+      "mesh": 0,
+      "name": "drum_drum_0"
+    },
+    {
+      "children": [
+        7
+      ],
+      "matrix": [
+        0.3808940052986145,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3798312505101373,
+        -0.028433508547597314,
+        0.0,
+        0.0,
+        0.028433508547597314,
+        0.3798312505101373,
+        0.0,
+        0.00016117095947265625,
+        376.8854675292969,
+        415.91204833984375,
+        1.0
+      ],
+      "name": "Plane001"
+    },
+    {
+      "mesh": 1,
+      "name": "Plane001_logo_0"
+    },
+    {
+      "children": [
+        9
+      ],
+      "matrix": [
+        -0.939692671713559,
+        1.1102230246251565e-16,
+        -0.34202000340306615,
+        0.0,
+        -0.34202000340306615,
+        0.0,
+        0.939692671713559,
+        0.0,
+        1.1102230246251565e-16,
+        1.0,
+        0.0,
+        0.0,
+        -642.340576171875,
+        739.52490234375,
+        -84.40745544433594,
+        1.0
+      ],
+      "name": "stick1"
+    },
+    {
+      "children": [
+        10
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        -0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1143.0771484375,
+        261.3014221191406,
+        -392.31439208984375,
+        1.0
+      ],
+      "name": "Object_9"
+    },
+    {
+      "mesh": 2,
+      "name": "stick1_drum_0"
+    },
+    {
+      "children": [
+        12
+      ],
+      "matrix": [
+        -0.5108560946211156,
+        0.008709320843608592,
+        0.8596221253079199,
+        0.0,
+        0.8577267511786641,
+        -0.06196772807490669,
+        0.5103575423070855,
+        0.0,
+        0.0577136976891624,
+        0.998040153705089,
+        0.024186374084729012,
+        0.0,
+        -608.5657958984375,
+        749.4554443359375,
+        -67.9942626953125,
+        1.0
+      ],
+      "name": "stick002"
+    },
+    {
+      "children": [
+        13
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        -0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1143.0771484375,
+        261.3014221191406,
+        -392.31439208984375,
+        1.0
+      ],
+      "name": "Object_12"
+    },
+    {
+      "mesh": 3,
+      "name": "stick002_drum_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    }
+  ]
+}
