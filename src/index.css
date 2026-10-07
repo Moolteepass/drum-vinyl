@@ -1,0 +1,196 @@
+@import "tailwindcss";
+
+/*
+ * iOS system colours (light + dark), exposed to Tailwind as e.g. bg-cell, text-label-2.
+ * "inline" makes Tailwind reference the variables, so dark mode switches automatically.
+ */
+@theme inline {
+  --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, "Helvetica Neue",
+    Arial, sans-serif;
+  --color-canvas: var(--ios-canvas);
+  --color-grouped: var(--ios-grouped);
+  --color-cell: var(--ios-cell);
+  --color-cell-2: var(--ios-cell-2);
+  --color-label: var(--ios-label);
+  --color-label-2: var(--ios-label-2);
+  --color-label-3: var(--ios-label-3);
+  --color-separator: var(--ios-separator);
+  --color-fill: var(--ios-fill);
+  --color-fill-2: var(--ios-fill-2);
+  --color-accent: var(--ios-accent);
+  --color-danger: var(--ios-red);
+  --color-success: var(--ios-green);
+  --color-material: var(--ios-material);
+  --color-thumb: var(--ios-thumb);
+}
+
+:root {
+  color-scheme: light dark;
+  --ios-canvas: #e5e5ea;
+  --ios-grouped: #f2f2f7;
+  --ios-cell: #ffffff;
+  --ios-cell-2: #f2f2f7;
+  --ios-label: #000000;
+  --ios-label-2: rgb(60 60 67 / 0.6);
+  --ios-label-3: rgb(60 60 67 / 0.3);
+  --ios-separator: rgb(60 60 67 / 0.29);
+  --ios-fill: rgb(118 118 128 / 0.12);
+  --ios-fill-2: rgb(120 120 128 / 0.2);
+  --ios-accent: #007aff;
+  --ios-red: #ff3b30;
+  --ios-green: #34c759;
+  --ios-material: rgb(249 249 249 / 0.78);
+  --ios-thumb: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ios-canvas: #0c0c0d;
+    --ios-grouped: #000000;
+    --ios-cell: #1c1c1e;
+    --ios-cell-2: #2c2c2e;
+    --ios-label: #ffffff;
+    --ios-label-2: rgb(235 235 245 / 0.6);
+    --ios-label-3: rgb(235 235 245 / 0.3);
+    --ios-separator: rgb(84 84 88 / 0.65);
+    --ios-fill: rgb(118 118 128 / 0.24);
+    --ios-fill-2: rgb(120 120 128 / 0.36);
+    --ios-accent: #0a84ff;
+    --ios-red: #ff453a;
+    --ios-green: #30d158;
+    --ios-material: rgb(30 30 30 / 0.75);
+    --ios-thumb: #636366;
+  }
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--ios-grouped);
+  color: var(--ios-label);
+  font-family: var(--font-sans);
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: -0.41px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+  /* Stop iOS rubber-banding the whole app; panels scroll on their own. */
+  overscroll-behavior: none;
+  overflow: hidden;
+}
+
+button {
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+/* Hairline separator between rows in a grouped list, inset from the leading edge like iOS. */
+.ios-row + .ios-row::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: var(--separator-inset, 16px);
+  height: 1px;
+  background: var(--ios-separator);
+  transform: scaleY(0.5);
+  transform-origin: top;
+}
+
+/* ---------- Slider (UISlider look) ---------- */
+.ios-slider {
+  --pct: 50%;
+  appearance: none;
+  -webkit-appearance: none;
+  width: 100%;
+  height: 28px;
+  margin: 0;
+  background: transparent;
+  touch-action: pan-y;
+}
+.ios-slider:focus-visible {
+  outline: none;
+}
+.ios-slider::-webkit-slider-runnable-track {
+  height: 4px;
+  border-radius: 2px;
+  background: linear-gradient(
+    to right,
+    var(--ios-accent) var(--pct),
+    var(--ios-fill-2) var(--pct)
+  );
+}
+.ios-slider::-moz-range-track {
+  height: 4px;
+  border-radius: 2px;
+  background: var(--ios-fill-2);
+}
+.ios-slider::-moz-range-progress {
+  height: 4px;
+  border-radius: 2px;
+  background: var(--ios-accent);
+}
+.ios-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 28px;
+  height: 28px;
+  margin-top: -12px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow:
+    0 0.5px 4px rgb(0 0 0 / 0.12),
+    0 6px 13px rgb(0 0 0 / 0.12);
+  transition: transform 0.15s ease;
+}
+.ios-slider::-moz-range-thumb {
+  width: 28px;
+  height: 28px;
+  border: none;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow:
+    0 0.5px 4px rgb(0 0 0 / 0.12),
+    0 6px 13px rgb(0 0 0 / 0.12);
+}
+.ios-slider:active::-webkit-slider-thumb {
+  transform: scale(1.1);
+}
+.ios-slider:focus-visible::-webkit-slider-thumb {
+  outline: 3px solid color-mix(in srgb, var(--ios-accent) 50%, transparent);
+}
+
+/* Hide number input spinners; values are edited by typing or with the slider. */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+/* Sheet entrance animations. */
+@keyframes sheet-up {
+  from {
+    transform: translateY(100%);
+  }
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
